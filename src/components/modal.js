@@ -8,7 +8,7 @@ const quizData = {
         questions: [
             { question: "Qui est la mère de Jon Snow ?", answers: ["Lyanna Stark", "Catelyn Stark", "Sansa Stark"], correct: "Lyanna Stark" },
             { question: "Quel est le nom de l'épée d'Arya Stark ?", answers: ["Glace", "Aiguille", "Grand-Griffe"], correct: "Aiguille" },
-            { question: "Qui a dit 'Winter is coming' ?", answers: ["Robb Stark", "Jon Snow", "Eddard Stark"], correct: "Eddard Stark" },
+            { question: "Qui a dit 'Winter is coming' ?", answers: ["Robbj Stark", "Jon Snow", "Eddard Stark"], correct: "Eddard Stark" },
             { question: "Quelle est la devise de la maison Lannister ?", answers: ["Hear Me Roar!", "Fire and Blood", "We Do Not Sow"], correct: "Hear Me Roar!" },
             { question: "Quel est le surnom de Jaime Lannister ?", answers: ["Régicide", "Kingslayer", "The Lion"], correct: "Kingslayer" }
         ]
@@ -49,8 +49,11 @@ const quizData = {
             { question: "Quelle est la capitale de l'Espagne ?", answers: ["Madrid", "Barcelone", "Séville"], correct: "Madrid" },
             { question: "Qui a écrit 'Le Petit Prince' ?", answers: ["Antoine de Saint-Exupéry", "Victor Hugo", "Gustave Flaubert"], correct: "Antoine de Saint-Exupéry" },
             { question: "Quel est le plus grand océan du monde ?", answers: ["Océan Atlantique", "Océan Indien", "Océan Pacifique"], correct: "Océan Pacifique" },
-            { question: "Combien de continents y a-t-il ?", answers: ["5", "6", "7"], correct: "7" },
-            { question: "Quel est l'élément chimique représenté par le symbole 'Fe' ?", answers: ["Fer", "Fluor", "Francium"], correct: "Fer" }
+            {
+                question: "Dans quel pays est originaire le pamplemousse ?",
+                answers: ["Brésil", "Chine", "Barbade"],
+                correct: "Barbade"
+            }, { question: "Quel est l'élément chimique représenté par le symbole 'Fe' ?", answers: ["Fer", "Fluor", "Francium"], correct: "Fer" }
         ]
     }
 };
